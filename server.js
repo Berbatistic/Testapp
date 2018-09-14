@@ -23,7 +23,7 @@ app.use(
     connection(mysql,{
         host     : 'localhost',
         user     : 'root',
-        password : '',
+        password : 'xlr84arms1',
         database : 'test',
         debug    : false //set true if you wanna see debug logger
     },'request')
@@ -231,7 +231,7 @@ curut2.delete(function(req,res,next){
 app.use('/api', router);
 
 //start Server
-var server = app.listen(3000,function(){
+var server = app.listen(80,function(){
 
    console.log("Listening to port %s",server.address().port);
 
